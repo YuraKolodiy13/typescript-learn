@@ -1,0 +1,17 @@
+.mt2{
+  margin-top: 2rem;
+}
+.todo-list{
+  input:checked{
+    & + span{
+      text-decoration: line-through;
+    }
+  }
+  .collection-item{
+    display: flex;
+    justify-content: space-between;
+  }
+  i{
+    cursor: pointer;
+  }
+}
